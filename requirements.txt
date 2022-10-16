@@ -1,0 +1,8 @@
+awscli
+boto3
+jupyter
+pandas
+google-cloud-bigquery
+Flask==2.1.0
+plotly
+db-dtypes

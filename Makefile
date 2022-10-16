@@ -5,7 +5,7 @@
 all: setup
 
 setup:
-	python3 -m venv ~/.venv/cloud_weather_predictions
+	python3 -m venv ~/.venv/big_query_ml
 # https://docs.python.org/3/library/venv.html#creating-virtual-environments
 
 install:

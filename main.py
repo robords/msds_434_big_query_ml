@@ -1,10 +1,10 @@
 from flask import Flask, render_template
-import hello
+import predictions
 
 app = Flask(__name__)
 @app.route('/')
 def index():
-    return hello.hello('GCP App Engine')
+    return predictions.prediction_chart()
 
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App
